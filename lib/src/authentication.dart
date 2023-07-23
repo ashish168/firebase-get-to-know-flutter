@@ -12,6 +12,7 @@ class AuthFunc extends StatelessWidget {
     super.key,
     required this.loggedIn,
     required this.signOut,
+    required bool enableFreeSwag,
   });
 
   final bool loggedIn;
